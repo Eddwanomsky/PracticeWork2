@@ -56,3 +56,6 @@ export function groupBy<T>(arr: T[], key: keyof T): Record<string, T[]> {
     {} as Record<string, T[]>,
   );
 }
+
+// Публічний реекспорт конфігурації
+export { config } from './config.js';
